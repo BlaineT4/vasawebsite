@@ -12,7 +12,7 @@
 body {
     margin: 0;
     font-family: "Lato", "Helvetica", sans-serif;
-    background-color: #ddd;
+    background-color: #eee;
 }
 
 a {
@@ -68,6 +68,7 @@ h2, h3, h4 {
 .header ul a {
     display: block;
     padding: 20px;
+    font-weight: 300;
     /* border-right: 1px solid #aaa; */
     text-decoration: none;
     text-align: center;
@@ -89,6 +90,7 @@ h2, h3, h4 {
     font-size: 3em;
     padding: 7.85px 20px;
     filter: invert(100%);
+    opacity: 0.8;
     width: 1em;
     transition:
     transform 50ms ease-in;
@@ -178,6 +180,10 @@ h2, h3, h4 {
 }
 
 /* Banner Section */
+
+.main-section {
+
+}
 
 .banner-wrapper: {
     position: relative;
@@ -292,9 +298,9 @@ h2, h3, h4 {
 /* Social Media Section */
 
 .social-media {
-    background-color: #eee;
+    /* background-color: #eee; */
     text-align: center;
-    padding: 5px;    
+    margin: 5px;    
 }
 
 .social-heading {
@@ -305,10 +311,12 @@ h2, h3, h4 {
 
 .icon {
     /* box-sizing: content-box; */
+    text-align: center;
     width: 14%;
-    padding: 0 4px;
+    padding: 0 9px;
     margin-top: 10px;
     cursor: pointer;
+    opacity: 0.85;
     transition:
     transform 250ms ease-in-out;
 }
@@ -321,14 +329,26 @@ h2, h3, h4 {
 
 .bio-wrapper {
     /* position: relative; */
-    padding: 20px 0;
+    padding: 10px 0;
+    /* background-color: #ddd; */
+    /* display: block; */
 
    
 }
 
 .bio-wrapper .bio {
     /* text-align: center; */
-    clear: both;
+    clear: left;
+}
+
+.bio h3 {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 15px 0 5px 0;
+}
+
+.bio p {
+    padding: 10px 0;
 }
 
 
@@ -337,7 +357,7 @@ h2, h3, h4 {
 .releases {
     text-align: center;
     padding-bottom: 20px;
-    background-color: #ddd;
+    background-color: #eee;
 }
 
 .release-head {
@@ -397,15 +417,18 @@ h2, h3, h4 {
     padding: 30px 0 20px 0;
 }
 
-.touring p {
+.touring h3 {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.2em;
+    font-weight: 300;
+    padding-top: 30px;
 }
 
 .dates {
     height: 600px;
-    background-color: #eee;
+    background-color: #f8f8f8;
     padding: 20px;
+    margin-bottom: 30px;
 }
 
 /* Footer Section */
@@ -486,10 +509,13 @@ footer p {
 
 /* Mailing List MQ */
 
+
+
  .mail-list {
      width: 37.4%;
      float: right;
      padding: 30px 0 0 0;
+     /* overflow: auto; */
  }
 
  .mail-header {
@@ -511,10 +537,14 @@ footer p {
      margin-top: 0px;
  }
 
+
+ /* Social Media Section MQ */
+
  .social-media {
      display: inline;
      /* float: right; */
      width: 37.4%;
+     
  }
 
  .social-heading {
@@ -532,11 +562,29 @@ footer p {
 }
 
  .icon {
-     width: 15%;
+     width: 14%;
      padding: 0 7px 0 0;
      margin: 5px 3px 0 0;
      /* float: left; */
  }
+
+
+ /* Bio Section MQ */
+
+ .bio h3 {
+     /* background-color: #f8f8f8; */
+     text-align: left;
+     padding-top: 40px;
+     font-size: 1.8em;
+ }
+
+ .bio {
+     padding-bottom: 30px;
+
+ }
+
+
+ /* Releases Section MQ */
 
  .release-head {
      font-size: 2.5em;
@@ -563,26 +611,37 @@ footer p {
      width: 35%;
      margin: 40px 0 20px 10px;
      float: right;
-     
-     
  }
 
  .mob-view-sub {
      text-align: center;
  }
 
- .rev-hide {
-     display: none;
- }
+
 
  .tour-head {
     font-size: 1.4em;
     text-align: left;
 }
 
-.touring p {
+ .touring h3 {
     
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
+}
+
+/* Utility CSS */
+
+.rev-hide {
+    display: none;
+}
+
+
+/* 520px Wide Media Queries */
+
+@media (max-width: 32.5em) {
+    .icon {
+        padding: 0 8px 0 0;
+    }
 }

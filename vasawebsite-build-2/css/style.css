@@ -389,6 +389,25 @@ h2, h3, h4 {
 }
 
 
+/* Touring Section */
+
+.tour-head {
+    font-size: 1.4em;
+    text-align: center;
+    padding: 30px 0 20px 0;
+}
+
+.touring p {
+    text-align: center;
+    font-size: 1em;
+}
+
+.dates {
+    height: 600px;
+    background-color: #eee;
+    padding: 20px;
+}
+
 /* Footer Section */
 
 /* footer {
@@ -555,5 +574,15 @@ footer p {
  .rev-hide {
      display: none;
  }
+
+ .tour-head {
+    font-size: 1.4em;
+    text-align: left;
+}
+
+.touring p {
+    
+    font-size: 1.5em;
+}
 
 }

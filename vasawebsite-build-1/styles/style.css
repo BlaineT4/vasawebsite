@@ -1,0 +1,165 @@
+/*Universal Styles*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    /* border: 1px solid red !important; */
+}
+
+ html{
+     font-size: 16px;
+ }
+
+/*Body Styles*/
+
+body{
+    font-family: "Lato", "Helvetica", sans-serif;
+    background-color: rgb(250, 250, 250);
+    line-height: 1.5;
+}
+
+
+/*Banner Section*/
+
+.banner-logo{
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+      
+}
+
+.banner{
+    padding: 50px 0;
+    position: relative;
+   
+}
+
+
+/*Navbar Section*/
+
+.nav-wrapper {
+    /* position: fixed; 
+     top: 1px; 
+     float: left; */
+     display: flex;
+     align-items: center;
+     padding: 15px 30px;
+     background: lightgray;
+     width: 100%;
+     z-index: 100;
+     position: sticky; 
+     top: -1px;
+ }
+ 
+    .navbar{
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: x-large;
+        margin: 0 20px 0 30px;
+    }
+
+        .navbar:hover {
+            
+            filter: invert(100%)
+        }
+ 
+
+.oldlogo{
+    padding: 1px;
+    
+}
+
+.oldlogo:hover {
+    filter: invert(100%);
+    
+}
+
+nav li{
+    text-decoration: none;
+}
+
+
+/*Photo & Sidebar Section*/
+
+/*.band-photo {
+    width: 60%;
+    height: auto;
+    overflow: hidden;
+}*/
+
+    .band-photo img {
+       /* max-width: 62.6%;
+        height: auto;
+        display: block; */
+    *   display: inline-block;
+        width: 62.6%; *
+    }
+
+.sidebar {
+    display: inline-block;
+    position: absolute;
+    margin: 40px 60px 0 60px;
+}
+
+.mail-header {
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+}
+
+.placeholder-box {
+    border: 2px solid darkgray;
+    height: 25px;
+    width: 350px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.sidebar p {
+    font-size: x-small;
+}
+
+.signup {
+    background-color: white;
+    margin: 1px 10px;
+    padding: 5px;
+    float: right;
+    text-transform: uppercase;
+    
+}
+
+.signup :hover {
+    filter: invert(100%);
+}
+
+.privacypolicy {
+    text-decoration: no;
+}
+
+
+/*Main Section*/
+main .bio {
+    margin: 20px 500px 20px 20px;
+    position: relative;
+    right: 300px;
+}
+
+main {
+    
+}
+
+.piss {
+    display: inline;
+}
+
+.fuck {
+    
+}
+
+.slap {
+    display: inline;
+}
